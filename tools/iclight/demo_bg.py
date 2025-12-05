@@ -18,14 +18,12 @@ import cv2
 
 # os.environ['GRADIO_TEMP_DIR'] = './tmp'
 
-sd15_name = '/share/project/cwm/tianqi.liu/workspace/hf/realistic-vision-v51'
-# sd15_name = 'stablediffusionapi/realistic-vision-v51'
+sd15_name = 'stablediffusionapi/realistic-vision-v51'
 tokenizer = CLIPTokenizer.from_pretrained(sd15_name, subfolder="tokenizer")
 text_encoder = CLIPTextModel.from_pretrained(sd15_name, subfolder="text_encoder")
 vae = AutoencoderKL.from_pretrained(sd15_name, subfolder="vae")
 unet = UNet2DConditionModel.from_pretrained(sd15_name, subfolder="unet")
-# rmbg = BriaRMBG.from_pretrained("briaai/RMBG-1.4")
-rmbg = BriaRMBG.from_pretrained("/share/project/cwm/tianqi.liu/workspace/hf/RMBG-1.4")
+rmbg = BriaRMBG.from_pretrained("briaai/RMBG-1.4")
 
 
 # Change UNet
