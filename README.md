@@ -25,8 +25,8 @@
 </div>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/" target='_blank'>
-    <img src="http://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b?logo=arxiv&logoColor=b31b1b" alt="ArXiv">
+  <a href="https://arxiv.org/abs/2512.05115" target='_blank'>
+    <img src="http://img.shields.io/badge/arXiv-2512.05115-b31b1b?logo=arxiv&logoColor=b31b1b" alt="ArXiv">
   </a>
   <a href="https://lightx-ai.github.io/" target='_blank'>
     <img src="https://img.shields.io/badge/Project-Page-red?logo=googlechrome&logoColor=red">
@@ -34,8 +34,8 @@
   <a href="https://youtu.be/ui9Lg2H--0c">
     <img src="https://img.shields.io/badge/YouTube-Video-blue?logo=youtube&logoColor=blue">
   </a>
-  <a href='https://huggingface.co/datasets/tqliu/Light-Syn'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue'></a>
-  <a href='https://huggingface.co/tqliu/Light-X'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-red'></a>
+  <a href='https://huggingface.co/datasets/tqliu/Light-Syn/tree/main'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue'></a>
+  <a href='https://huggingface.co/tqliu/Light-X/tree/main'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-red'></a>
   <a href="#">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=TQTQliu.Light-X" alt="Visitors">
   </a>
@@ -70,7 +70,7 @@ bash run.sh
 ```
 All required models will be downloaded automatically.
 
-**Note:** We provide a list of commonly used commands along with their corresponding visual outputs in **[EXAMPLE.md](EXAMPLE.md)**. We strongly encourage users to refer to this file to understand the purpose and effect of each argument.
+**Note:** We provide a list of commonly used commands along with their corresponding visual outputs in **[EXAMPLE.md](EXAMPLE.md)**. We encourage users to refer to this file to understand the purpose and effect of each argument.
 
 The `run.sh` script executes `inference.py` with the following arguments:
 
@@ -113,7 +113,7 @@ See [here](https://github.com/TrajectoryCrafter/TrajectoryCrafter/blob/main/docs
 
 #### 1. Prepare Training Data
 
-Download the [dataset](https://huggingface.co/datasets/tqliu/Light-Syn) .
+Download the [dataset](https://huggingface.co/datasets/tqliu/Light-Syn/tree/main) .
 
 #### 2. Generate Metadata
 
@@ -158,6 +158,12 @@ python inference.py --transformer_path output_train/checkpoint-16000-out
 If you find our work useful for your research, please consider citing our paper:
 
 ```
+@article{lightx,
+  title   = {Light-X: Generative 4D Video Rendering with Camera and Illumination Control},
+  author  = {Liu, Tianqi and Chen, Zhaoxi and Huang, Zihao and Xu, Shaocong and Zhang, Saining and Ye, Chongjie and Li, Bohan and Cao, Zhiguo and Li, Wei and Zhao, Hao and Liu, Ziwei},
+  journal = {arXiv preprint arXiv:2512.05115},
+  year    = {2025}
+}
 ```
 
 ## ♥️ Acknowledgement
