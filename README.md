@@ -98,7 +98,7 @@ python inference.py \
 - `--traj_txt`: Trajectory file (required for `traj`)
 - `--target_pose`: Target view `<theta phi r x y>` (required for `target`)
 - `--recam_vd`: Enable re-camera
-- 
+  
 See [here](https://github.com/TrajectoryCrafter/TrajectoryCrafter/blob/main/docs/config_help.md) for more details on camera parameters.
 
 💡 Relighting
