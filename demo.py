@@ -6,9 +6,9 @@ import numpy as np
 import torch
 from transformers import T5EncoderModel
 from PIL import Image
-from videox_fun.models.crosstransformer3d import CrossTransformer3DModel
-from videox_fun.models.autoencoder_magvit import AutoencoderKLCogVideoX
-from videox_fun.pipeline.pipeline_cogvideox_fun_inpaint import CogVideoXFunInpaintPipeline
+from core.models.crosstransformer3d import CrossTransformer3DModel
+from core.models.autoencoder_magvit import AutoencoderKLCogVideoX
+from core.pipeline.pipeline_cogvideox_fun_inpaint import CogVideoXFunInpaintPipeline
 from tools.utils import *
 from diffusers import (
     AutoencoderKL,
@@ -24,7 +24,7 @@ import shutil
 import cv2
 from tools.iclight.demo import relight_image
 from tools.iclight.demo_bg import relight_image_bg
-from videox_fun.data.hdri_processer import HDRI_Preprocessor
+from core.data.hdri_processer import HDRI_Preprocessor
 
 
 class LightX:

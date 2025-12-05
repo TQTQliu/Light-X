@@ -22,7 +22,7 @@ from packaging import version as pver
 from PIL import Image
 from torch.utils.data import BatchSampler, Sampler
 from torch.utils.data.dataset import Dataset
-from videox_fun.data.hdri_processer import HDRI_Preprocessor
+from core.data.hdri_processer import HDRI_Preprocessor
 
 VIDEO_READER_TIMEOUT = 60
 

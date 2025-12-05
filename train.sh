@@ -14,7 +14,7 @@ huggingface-cli download \
     --local-dir-use-symlinks False
 export TRANSFORMER_PATH="$(pwd)/checkpoints/TrajectoryCrafter"
 
-export DATASET_META_NAME="/share/project/cwm/tianqi.liu/workspace/release/code/lightx/data/Light-Syn-dataset/static/metadata.json" # modify here
+export DATASET_META_NAME="./data/metadata.json" # modify here
 export NCCL_IB_DISABLE=1
 export NCCL_P2P_DISABLE=1
 export DATASET_NAME=""
